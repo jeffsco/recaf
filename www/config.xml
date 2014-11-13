@@ -1,27 +1,25 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.starter"
-        version="0.0.1"
-        xmlns="http://www.w3.org/ns/widgets"
-        xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        xmlns:gap="http://phonegap.com/ns/1.0"
->
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.psellos.istc.recaf"
+        version   = "1.0.0"
+        xmlns:cdv = "http://cordova.apache.org/ns/1.0">
     <name>Recaf</name>
     <description>
-        An Ionic Framework and Cordova project.
+        Food journaling based on photos
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <author email="tractdb@tractdb.org" href="http://tractdb.org/">
+        TractDB Team
     </author>
-    <content src="index.html" />
-    <access origin="*" />
+
     <preference name="phonegap-version" value="3.6.3" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
 
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
     <gap:plugin name="com.ionic.keyboard" />
-    <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="com.couchbase.lite.phonegap" />
